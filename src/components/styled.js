@@ -1,11 +1,11 @@
 import styled from "styled-components";
 
-export const BtnDefautIcons = styled.div`
+export const BtnDefautIcons = styled.button`
 
     display: flex;
     align-itens: center;
     padding: 10px;
-    width: 50%;
+    width: 100%;
     border-radius: 5px;
     border: 0px;
     outline: none;

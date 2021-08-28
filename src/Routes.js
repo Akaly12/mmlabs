@@ -2,6 +2,7 @@ import React from 'react';
 import { Switch, Route } from 'react-router-dom';
 
 import Home from './pages/Home';
+import Login from './pages/Login';
 
 export default () => {
 
@@ -10,9 +11,11 @@ export default () => {
             <Route exact path="/home">
                 <Home />
             </Route>
-
-            <Route exact path="/sobre">
-                Sobre
+            <Route exact path="*">
+                <Login />
+            </Route>
+            <Route exact path="/registrar">
+                Registre-se
             </Route>
 
         </switch>

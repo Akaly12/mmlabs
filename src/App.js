@@ -12,13 +12,8 @@ import './App.css'
 
 function App(){
 
-   const [user, setUser] = useState(null);
-
-   if(user === null){
-      return(
-         <Login />
-      );
-   }
+   const [user, setUser] = useState(2);
+   
   return (
       <BrowserRouter>  
         <Header />

@@ -4,12 +4,29 @@ export const AreaLogin = styled.div`
 
     background-color: #fff;
     padding: 30px;
-    max=width: 300px;
+    max-width: 300px;
     margin: auto;
     margin-top: 20px;
     text-align: center;
     border-radius: 5px;
     box-shadow: 0px 0px 10px #ccc;
+
+    h1{
+        font-size: 24px;
+    }
+
+    .organize{
+        display: felx;
+        
+        a{
+            color: #000;
+        }
+    }
+
+    p{
+        font-size: 13px;
+        color: #9c9c9c;
+    }
 
     .form--input{
         text-align: left;
@@ -32,5 +49,21 @@ export const AreaLogin = styled.div`
                 border: 2px solid #7d2ae8;
             }
         }
-}
-    `;
+    }
+
+    .footerLogin{
+        font-size: 13px;
+
+        a{
+            font-weight: bold;
+            margin-left: 5px;
+            color: #4e129c;
+            transition: 0.4s;
+            cursor: pointer;
+
+            &:hober{
+                color: #7d2ae8;
+            }
+        }
+    }
+`;

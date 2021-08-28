@@ -13,7 +13,7 @@ function Header(){
                
                 <nav>
                     <ul>
-                        <li><Link to="/home">Inicio</Link></li>
+                        <li><Link to="/Login">Inicio</Link></li>
                         <li><Link to="/logout">Sair</Link></li>
                     </ul>
             </nav>
